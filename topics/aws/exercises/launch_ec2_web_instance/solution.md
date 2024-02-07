@@ -36,7 +36,7 @@ echo "<h1>I made it! This is is awesome!</h1>" > /var/www/html/index.html
 sudo apt update
 sudo apt install apache2
 sudo ufw allow 'Apache'
-sudo systemctl ststus apache2
+sudo systemctl status apache2
 ---
 
 8. Add tags with the following keys and values:
