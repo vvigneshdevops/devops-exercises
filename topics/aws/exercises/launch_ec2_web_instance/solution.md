@@ -31,6 +31,14 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>I made it! This is is awesome!</h1>" > /var/www/html/index.html
 ```
+---
+#for  ubuntu Instance
+sudo apt update
+sudo apt install apache2
+sudo ufw allow 'Apache'
+sudo systemctl ststus apache2
+---
+
 8. Add tags with the following keys and values:
   * key "Type" and the value "web"
   * key "Name" and the value "web-1"
